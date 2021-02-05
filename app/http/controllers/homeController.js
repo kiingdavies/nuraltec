@@ -4,8 +4,8 @@ function homeContorller() {
   return {
    index(req, res) {
       
-    //   res.render('home');
-   res.send('Home page');
+      res.render('home');
+  //  res.send('Home page');
     },
   };
 }

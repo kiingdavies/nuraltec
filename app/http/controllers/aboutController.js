@@ -4,8 +4,8 @@ function aboutController() {
     return {
      index(req, res) {
         
-      //   res.render('home');
-     res.send('About page');
+        res.render('about');
+    //  res.send('About page');
       },
     };
   }

@@ -4,8 +4,8 @@ function projectsController() {
     return {
      index(req, res) {
         
-      //   res.render('home');
-     res.send('Projects page');
+        res.render('projects');
+    //  res.send('Projects page');
       },
     };
   }

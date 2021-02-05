@@ -4,8 +4,8 @@ function contactController() {
     return {
      index(req, res) {
         
-      //   res.render('home');
-     res.send('Contact page');
+        res.render('contact');
+    //  res.send('Contact page');
       },
     };
   }
